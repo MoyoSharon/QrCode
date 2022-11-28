@@ -24,7 +24,7 @@ Mobile View
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://qrcode-moyo.netlify.app)
 
 ## My process
 Using a main div container with **id-#main**, it contained the QR code image. Then i created another another div with **id-#text** where i placed the necessary texts as different blick elements.
