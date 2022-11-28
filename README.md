@@ -19,9 +19,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](Screenshot_20221128-105916.png)
 Mobile View
-![](Screenshot_20221128-105934.png)
-Desktop view
-
 
 
 ### Links
