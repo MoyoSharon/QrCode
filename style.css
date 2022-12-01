@@ -1,7 +1,10 @@
 body {
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
-  margin: 50% 30px 50% 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh
 }
 
 #main {
@@ -13,25 +16,15 @@ body {
 
 @media only screen and (min-width: 600px) {
   #main {
-    margin: 0 auto;
+   margin: 0 auto;
     width: auto;
   }
 }
 
-@media (min-width:1440px) {
-  body {
-    max-width: 1440px;
-  }
-}
-
-div img {
+img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
-}
-
-#text {
-  text-align: center;
 }
 
 .one {
@@ -41,12 +34,14 @@ div img {
   padding: 0px;
   margin: 10px;
   font-family: 'Outfit';
+  text-align: center;
 }
 
 .two {
   color: hsl(218, 44%, 22%);
   font-weight: 400;
   font-family: 'Outfit';
+  text-align: center;
 }
 
 .attribution {
@@ -58,10 +53,7 @@ div img {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width:600px){
-  body{
-    margin: 10rem 10vw 10rem 10vw;
-  }
+@media only screen and (min-width:600px) {
   #main {
     max-width: 30vw;
     height: fit-content;
